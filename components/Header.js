@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from '../styles/Header.module.css'
+import styles from '@/styles/Header.module.css'
 
 // Link uses href instead of 'to' in react-router-dom
 // 'a' tag technically isn't needed anymore, but is useful if you want to style
