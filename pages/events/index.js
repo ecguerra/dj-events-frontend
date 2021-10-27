@@ -8,7 +8,7 @@ import {API_URL} from '@/config/index'
 // revalidate is workaround - checks for updates
 
 export async function getStaticProps() {
-  const res = await fetch(`${API_URL}/api/events`)
+  const res = await fetch(`${API_URL}/events?_sort=date:ASC`)
   const events = await res.json()
 
   // have to pass to the client here
