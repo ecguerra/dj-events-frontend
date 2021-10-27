@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Search from './Search'
 import styles from '@/styles/Header.module.css'
 
 // Link uses href instead of 'to' in react-router-dom
@@ -12,6 +13,9 @@ export default function Header() {
                     <a>DJ Events</a>
                 </Link>
             </div>
+
+            <Search />
+
             <nav>
                 <ul>
                     <li>
